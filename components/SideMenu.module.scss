@@ -1,0 +1,25 @@
+.sideMenu {
+    float: left;
+    width: 275px;
+    box-shadow: 0 0 10px 1px #e3e3e3;
+}
+.sideMenuList {
+
+}
+.sideMenuItem {
+    width: 200px;
+    margin: 4px 10px;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4;/*色*/
+    border: solid 1px #0f9ada;/*線色*/
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+.sideMenuItem:active {
+    border: solid 1px #03A9F4;
+    box-shadow: none;
+    text-shadow: none;
+}
